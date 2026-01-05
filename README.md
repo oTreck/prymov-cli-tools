@@ -114,6 +114,18 @@ Typical Use Cases
 - Fixing inconsistent image sizes in existing catalogs
 - Preparing media assets for marketplaces or PIM systems
 
+##### Requirements:
+ - bash
+ - find (GNU findutils)
+ - ImageMagick (convert) installing -> sudo apt 
+
+install imagemagick
+
+```
+sudo apt install imagemagick
+```
+
+Use resize-images.sh
 ```
 .# resize-images.sh <BASE_DIR> <WIDTHxHEIGHT> <EXTENSION...>
 ./image/resize-images.sh ./product-images 443x665 jpg png
