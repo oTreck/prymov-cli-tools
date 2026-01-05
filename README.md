@@ -73,14 +73,18 @@ Arthur Prymov
 ## Lisense
 MIT License
 
+---
 ## Repository
 
 https://github.com/oTreck/prymov-cli-tools
 
 
+## How to use:
 
-## delete
-### delete-files-by-pattern.sh
+### delete
+
+
+#### delete-files-by-pattern.sh
 
 Deletes files recursively in a given directory based on filename patterns
 and file extension. Useful for bulk cleanup tasks.
