@@ -1,5 +1,82 @@
 # prymov-cli-tools
-A curated collection of reusable CLI tools and shell scripts for daily development, automation, and system maintenance.
+#!/bin/bash
+
+## Description
+
+Deletes files recursively in a given base directory based on a list of filename
+patterns and a specific file extension.
+
+This tool is designed as a lightweight CLI utility for maintenance and cleanup
+tasks in E-Commerce environments.
+
+---
+
+## Typical E-Commerce Use Cases
+
+- Removing outdated or incorrect product images
+- Cleaning up asset directories after product deactivation
+- Bulk deletion of media files by SKU, product ID, or variant code
+- Maintenance of large image repositories in shop systems
+- Cleanup after catalog imports or migrations
+
+---
+
+## Platform Compatibility
+
+- **Linux only**
+- Tested on **Debian**
+- Requires GNU utilities
+
+> This script is not compatible with Windows or macOS without GNU tools.
+
+---
+
+## Requirements
+
+The following tools must be available on the system:
+
+- `bash`
+- `find` (GNU findutils)
+- `rm` (GNU coreutils)
+
+---
+
+## Notes & Warnings
+
+- This script permanently deletes files.
+- Deleted files **cannot be recovered**.
+- Always double-check:
+    - Base directory
+    - File extension
+    - Filename patterns
+- Consider testing with a small dataset first.
+
+---
+
+## Intended Audience
+
+This tool is intended for:
+
+- E-Commerce developers
+- Shop administrators
+- DevOps and system maintainers
+- Anyone managing large media or asset directories in online shops
+
+---
+
+## Author
+
+Arthur Prymov
+
+---
+
+## Lisense
+MIT License
+
+## Repository
+
+https://github.com/oTreck/prymov-cli-tools
+
 
 
 ## delete
