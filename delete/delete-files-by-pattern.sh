@@ -7,14 +7,6 @@
 # that match one or more search patterns.
 # ----------------------------------------
 
-#!/bin/bash
-
-# ----------------------------------------
-# delete-files-by-pattern.sh
-#
-# Deletes files recursively in a base directory
-# that match one or more search patterns.
-# ----------------------------------------
 
 # Base directory to search in
 BASE_DIR="$HOME/path/to/search"
