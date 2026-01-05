@@ -81,7 +81,7 @@ https://github.com/oTreck/prymov-cli-tools
 
 ## How to use:
 
-### delete
+### Delete tools
 
 
 #### delete-files-by-pattern.sh
@@ -97,4 +97,25 @@ Edit the configuration section inside the script to define:
 
 ```
 .delete/delete-files-by-pattern.sh /path/to/dir jpg id1 id2 id3
+```
+
+
+### Image tools
+
+#### resize-images.sh
+
+Recursively resizes image files to a fixed resolution.  
+Designed for E-Commerce workflows where consistent product image dimensions
+are required.
+
+Typical Use Cases
+
+- Standardizing product images before shop import
+- Fixing inconsistent image sizes in existing catalogs
+- Preparing media assets for marketplaces or PIM systems
+
+```
+.# resize-images.sh <BASE_DIR> <WIDTHxHEIGHT> <EXTENSION...>
+./image/resize-images.sh ./product-images 443x665 jpg png
+
 ```
