@@ -1,5 +1,5 @@
 # prymov-cli-tools
-#!/bin/bash
+
 
 ## Description
 
